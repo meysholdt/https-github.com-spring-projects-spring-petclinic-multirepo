@@ -13,9 +13,22 @@
 		<option name="LAST_RESOLUTION" value="IGNORE" />
 	</component>
 	<component name="ExternalProjectsData">
+		<projectState path="$PROJECT_DIR$/../caffeine">
+			<ProjectState />
+		</projectState>
 		<projectState path="$PROJECT_DIR$">
 			<ProjectState />
 		</projectState>
+	</component>
+	<component name="ExternalProjectsManager">
+		<system id="GRADLE">
+			<state>
+				<task path="$PROJECT_DIR$/../caffeine">
+					<activation />
+				</task>
+				<projects_view />
+			</state>
+		</system>
 	</component>
 	<component name="Git.Settings">
 		<option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,20 +53,29 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/workspace/caffeine",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
 	<component name="RdControllerToolWindowsLayoutState" isNewUi="true">
 		<layout>
 			<window_info id="Bookmarks" show_stripe_button="false" side_tool="true" />
+			<window_info id="ORM" side_tool="true" />
 			<window_info id="Merge Requests" show_stripe_button="false" />
 			<window_info id="Commit_Guest" show_stripe_button="false" />
 			<window_info id="Pull Requests" show_stripe_button="false" />
 			<window_info id="Learn" show_stripe_button="false" />
-			<window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+			<window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5009259" visible="true" weight="0.32994792" />
 			<window_info id="Commit" order="1" weight="0.25" />
-			<window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+			<window_info active="true" id="Structure" order="2" sideWeight="0.49907407" side_tool="true" visible="true" weight="0.32994792" />
 			<window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
 			<window_info anchor="bottom" id="TypeScript" show_stripe_button="false" />
 			<window_info anchor="bottom" id="Profiler" show_stripe_button="false" />
@@ -63,16 +85,50 @@
 			<window_info anchor="bottom" id="Version Control" order="0" />
 			<window_info anchor="bottom" id="Problems" order="1" />
 			<window_info anchor="bottom" id="Problems View" order="2" />
-			<window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.33033174" />
+			<window_info active="true" anchor="bottom" id="Terminal" order="3" visible="true" weight="0.4222749" />
 			<window_info anchor="bottom" id="Services" order="4" />
 			<window_info anchor="right" id="Endpoints" show_stripe_button="false" />
 			<window_info anchor="right" id="Coverage" show_stripe_button="false" side_tool="true" />
+			<window_info anchor="right" id="Beans" />
 			<window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
 			<window_info anchor="right" id="AIAssistant" order="1" weight="0.25" />
 			<window_info anchor="right" id="Database" order="2" weight="0.25" />
 			<window_info anchor="right" id="Gradle" order="3" weight="0.25" />
 			<window_info anchor="right" id="Maven" order="4" weight="0.25" />
 		</layout>
+	</component>
+	<component name="RunManager" selected="Spring Boot.PetClinicApplication">
+		<configuration name="Simulator" type="Application" factoryName="Application">
+			<option name="MAIN_CLASS_NAME" value="com.github.benmanes.caffeine.cache.simulator.Simulator" />
+			<module name="caffeine.simulator.main" />
+			<method v="2">
+				<option name="Make" enabled="true" />
+			</method>
+		</configuration>
+		<configuration default="true" type="JUnit" factoryName="JUnit">
+			<option name="TEST_OBJECT" value="class" />
+			<option name="VM_PARAMETERS" value="-XX:+EnableDynamicAgentLoading -XX:SoftRefLRUPolicyMSPerMB=0 -XX:+UseParallelGC -Xshare:off" />
+			<method v="2">
+				<option name="Make" enabled="true" />
+			</method>
+		</configuration>
+		<configuration name="PetClinicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+			<option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+			<module name="spring-petclinic.main" />
+			<option name="SPRING_BOOT_MAIN_CLASS" value="org.springframework.samples.petclinic.PetClinicApplication" />
+			<method v="2">
+				<option name="Make" enabled="true" />
+			</method>
+		</configuration>
+		<configuration default="true" type="TestNG">
+			<option name="TEST_OBJECT" value="CLASS" />
+			<option name="VM_PARAMETERS" value="-XX:+EnableDynamicAgentLoading -XX:SoftRefLRUPolicyMSPerMB=0 -XX:+UseParallelGC -Xshare:off" />
+			<properties />
+			<listeners />
+			<method v="2">
+				<option name="Make" enabled="true" />
+			</method>
+		</configuration>
 	</component>
 	<component name="SharedIndexes">
 		<attachedChunks>
@@ -90,7 +146,7 @@
 			<option name="number" value="Default" />
 			<option name="presentableId" value="Default" />
 			<updated>1729614036177</updated>
-			<workItem from="1729614040268" duration="44000" />
+			<workItem from="1729614040268" duration="552000" />
 		</task>
 		<servers />
 	</component>
