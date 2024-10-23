@@ -12,11 +12,11 @@ tasks:
       fi
 
       (cd /workspace/caffeine/
-          ./gradlew build
+          ./gradlew build -x test
       )
 
       (cd /workspace/spring-petclinic-multirepo
-        ./gradlew build
+          ./gradlew build
       )
 vscode:
   extensions:
